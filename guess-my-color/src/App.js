@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  
+  const [color, setColor] = useState()
+
+  function randomColor() {
+    let colors = ["Red", "Yellow", "Blue"]
+    
+    let chosenColor = Math.floor(Math.random() * 3)
+
+    setColor(colors[chosenColor])
+  }
+
+  function guessColor() {
+    let color = randomColor()
+    if(color === "Red") {
+      return <h1>That's Right!</h1>
+    } else {
+      <h1>Wrong!</h1>
+    }
+  }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <>
+    <h1 style={{color:"red"}} >Can you guess my color??</h1>
+    <div>
+    <button onClick={guessColor({})}>Red</button>
+    <button onClick={guessColor({})}>Blue</button>
+    <button onClick={guessColor({})}>Yellow</button>
     </div>
-  );
+    </>
+      );
 }
 
 export default App;
