@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(45deg, #181818, #3e3e3e);
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive; 
+    text-shadow: 0 0 5px #146353, 0 0 10px #1e8872;
+  }
+  
+  .navbar {
+    background-color: #000;
+    border-bottom: 3px solid #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+  }
+  
+  .navbar-brand {
+    color: #ff00ff !important;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  .nav-link {
+    color: #00ffcc !important;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link:hover {
+    color: #ffff00 !important;
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00;
+  }
+  
+  .btn {
+    background-color: #ff00ff;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  .btn:hover {
+    background-color: #00ffcc;
+    box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+  }
+  
+  input.form-control {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    border: 2px solid #ff00ff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  input.form-control:focus {
+    border-color: #00ffcc;
+    box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+  }
+  
+  .list-group-item {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    border: 1px solid #ff00ff;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .list-group-item:hover {
+    background-color: #00ffcc;
+    color: #000;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
+  a {
+    color: #00ffcc;
+  }
+  
+  a:hover {
+    color: #ffff00;
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #ff00ff;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+  }
+  
